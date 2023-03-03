@@ -15,7 +15,7 @@ And it presents the special part of this program  that its the stetic like a hol
 ![crack](https://user-images.githubusercontent.com/83958340/222610146-654ccea8-cb6a-4794-beb2-a619b424bf3b.png)
 
 
-One last thing if you want to change the Brute Force diccionary go to this lines
+One last thing if you want to change the Brute Force diccionary or the algoritm to crack go to this lines...
 
     wordlist = open("upload.txt", "r")
                         |
@@ -25,14 +25,13 @@ One last thing if you want to change the Brute Force diccionary go to this lines
     
   --------------------------------------------------------------------------------------------------------------
             
-           And for the algoritms...
             
-            crypted_password = hashlib.sha256(word.encode()).hexdigest()
-                                        #|
-                                        #|__ Default algoritm in the menu you have the other algoritm that you can use...
+            crypted_password = hashlib.sha256(word.encode()).hexdigest() 
+                                        |
+                                        |__ Default algoritm in the menu you have the other algoritm that you can use...
                                          
                
-            crypted_password = hashlib.sha512(word.encode()).hexdigest() #--> Example with another Algoritm...
+            crypted_password = hashlib.sha512(word.encode()).hexdigest() --> Example with another Algoritm...
             
 ####Requeriments for the software####
 
