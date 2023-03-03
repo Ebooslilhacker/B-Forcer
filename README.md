@@ -7,6 +7,9 @@ launches you its for that you the hash that you to crack.
 
 (Like this)
 
+![intro](https://user-images.githubusercontent.com/83958340/222607287-332ef615-0e9c-4be0-96be-7863bf285ded.png)
+
+
 ####Requeriments####
 
 git 
