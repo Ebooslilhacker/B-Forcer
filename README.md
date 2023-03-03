@@ -15,10 +15,24 @@ And it presents the special part of this program  that its the stetic like a hol
 ![crack](https://user-images.githubusercontent.com/83958340/222610146-654ccea8-cb6a-4794-beb2-a619b424bf3b.png)
 
 
+One last thing if you want to change the Brute Force diccionary or the algoritm go to this lines
 
+    wordlist = open("upload.txt", "r")
+                        |
+                        |_ Diccionary name
+                        
+  wordlist = open("numer4-5.txt", "r") --> Example with another Diccionary...
+    
+            crypted_password = hashlib.sha256(word.encode()).hexdigest()
+                                         |
+                                         |__ Default algoritm in the menu you have the other algoritm that you can use...
+                                         
+               
+            crypted_password = hashlib.sha512(word.encode()).hexdigest() --> Example with another Algoritm...
+            
 ####Requeriments for the software####
 
-Brute force diccionary like rockyou
+Brute force diccionary in format .txt
 
 ####Requeriments####
 
