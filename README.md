@@ -16,6 +16,9 @@ And it presents the special part of this program  that its the stetic like a hol
 
 
 
+####Requeriments for the software####
+
+Brute force diccionary like rockyou
 
 ####Requeriments####
 
