@@ -19,7 +19,7 @@ def hashCrack():
     hash_name = input("[+] Enter the HASH target: ")
     print("")
 
-    wordlist = open("rockyou.txt", "r")
+    wordlist = open("upload.txt", "r")
 
     for word in wordlist.readlines():
         word = word.strip()
